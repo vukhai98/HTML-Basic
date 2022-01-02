@@ -1,4 +1,10 @@
-h1 {
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.heading {
     color: blue;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -9,4 +15,36 @@ h1 {
 
 textarea {
     display: block;
+}
+
+.heading {
+    border: 2px solid red;
+    background-color: pink;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px;
+}
+
+.content {
+    background-color: palegoldenrod;
+    width: 75%;
+    float: left;
+}
+
+.avatar {
+    width: 25%;
+    background-color: greenyellow;
+    float: left;
+}
+
+.info {
+    background-color: aquamarine;
+}
+
+.claerfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
