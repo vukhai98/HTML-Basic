@@ -1,50 +1,92 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-.heading {
-    color: blue;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    /*Chỉnh độ rộng của cỡ chữ*/
-    font-size: 50px;
-    /* Chỉnh size của font chữ */
-}
-
-textarea {
-    display: block;
-}
-
-.heading {
-    border: 2px solid red;
-    background-color: pink;
-}
-
-.container {
-    width: 1140px;
-    margin: 0px;
-}
-
-.content {
-    background-color: palegoldenrod;
-    width: 75%;
-    float: left;
-}
-
-.avatar {
-    width: 25%;
-    background-color: greenyellow;
-    float: left;
-}
-
-.info {
-    background-color: aquamarine;
-}
-
-.claerfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        html {
+            font-family: 'Lato', sans-serif;
+        }
+        
+        h1,
+        h2 {
+            color: purple;
+        }
+        
+        h1 {
+            font-size: 80px;
+            margin-bottom: 15px;
+        }
+        
+        h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            margin-bottom: 10px;
+        }
+        
+        .container {
+            width: 1140px;
+            margin: 0 auto;
+            background-color: lavender;
+            padding: 0 20px;
+        }
+        
+        .content {
+            width: 75%;
+            float: left;
+        }
+        
+        .form {
+            width: 25%;
+            float: left;
+        }
+        
+        input,
+        textarea {
+            display: block;
+        }
+        
+        input {
+            margin: 5px;
+            width: 260px;
+            padding: 15px;
+        }
+        
+        textarea {
+            margin: 5px;
+            width: 260px;
+            padding: 15px;
+        }
+        
+        .avatar_image {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-top: 10px;
+        }
+        
+        .claerfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        h4 {
+            float: left;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        
+        .info {
+            margin-top: 20px;
+            padding-bottom: 30px;
+        }
+        
+        .date {
+            position: relative;
+            left: 200px;
+        }
